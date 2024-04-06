@@ -1,0 +1,53 @@
+/* Colors */
+:root{
+    --color-white: hsl(0,0%,100%);
+    --color-Light-gray: hsl(212,45%,89%);
+    --color-Grayish-blue: hsl(220,15%,55%);
+    --color-Dark-blue:hsl(218,44%,22%);
+}
+
+
+
+/*Univeral Styles*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Outfit",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-Light-gray);
+}
+
+
+img{
+   height: 280px;
+   width: 280px; 
+   border-radius: 0.75rem;
+}
+
+.box{
+    
+    border-radius: 0.75rem;
+    background-color: white;
+    max-width: 310px;
+    padding: 15px;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    font-size: 1.3rem;
+    color: var(--color-Dark-blue);
+}
+p{
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    color: var(--color-Grayish-blue);
+}
